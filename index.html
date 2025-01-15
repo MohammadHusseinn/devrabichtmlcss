@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">John Doe</h1>
+        <nav class="header__nav-list">
+            <ul class="nav-list">
+                <li><a class="nav-list__link nav-list__link--active" href="#">Home</a></li>
+                <li><a class="nav-list__link" href="#">About Me</a></li>
+                <li><a class="nav-list__link" href="#">Portfolio</a></li>
+                <li><a class="nav-list__link" href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="about" id="about">
+            <h2 class="about__title">About me</h2>
+            <P class="about__text">Hello,im john Doe ,a web developer passionate about creating beautiful and functional websites</P>
+            <p class="about__text">I specialize in frontend and backend web development,and i love turning ideas into reatlity</p>
+        </section>
+
+        <section class="portfolio" id="Portfolio">
+            <h2 class="portfolio__title">My Portfolio</h2>
+            
+            <div class="portfolio__cards">
+                <div class="project">
+                    <img class="project__image" src="images/portfolio-1.jpg" alt="project">
+                    <h3 class="project__title">Eco-Friendly Travel App</h3>
+                    <p class="project__description">An app that helps travelers find eco-conscious accomendations ,activities,and offset their carbon footprint.</p>
+                    <button class="project__button">View Project</button>
+                </div>
+    
+    
+                <div class="project">
+                    <img class="project__image" src="images/portfolio-2.jpg" alt="project">
+                    <h3 class="project__title">Eco-Friendly Travel App</h3>
+                    <p class="project__description">An app that helps travelers find eco-conscious accomendations ,activities,and offset their carbon footprint.</p>
+                    <button class="project__button">View Project</button>
+                </div>
+    
+    
+                <div class="project">
+                    <img class="project__image" src="images/portfolio-3.jpg" alt="project">
+                    <h3 class="project__title">Eco-Friendly Travel App</h3>
+                    <p class="project__description">An app that helps travelers find eco-conscious accomendations ,activities,and offset their carbon footprint.</p>
+                    <button class="project__button">View Project</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="Contact" id="Contact">
+            <h2 class="contact__title">Contact Me</h2>
+
+            <form class="contact__form">
+                <label class="contact__lable" for="name">Name:</label>  <br/><br/>
+                <input class="contact__input" type="text" /><br/><br/>
+              
+
+                <label class="contact__lable" for="email">email:</label><br/><br/>
+                <input class="contact__input" type="text" id="name" name="email"><br/><br/>
+
+
+                <label class="contact__lable" for="message">Messages</label> <br/><br/>
+                <textarea class="contact__textarea" id="message" name="message" rows="4"></textarea>  <br/><br/>
+
+                <input class="contact__submit" type="submit" value="Send Messages"/><br/><br/>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; John Does Portfolio</p>
+    </footer>
+</body>
+</html>
